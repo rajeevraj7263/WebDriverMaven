@@ -34,7 +34,7 @@ public class Login_rrp extends TestBase
 		driver.findElement(By.xpath(OR.getProperty("loginclick"))).click();
 		log.debug("Successfully login");
 		/*
-		 * rajiv raj
+		 * rajiv ranjan
 		 */
 		
 		
