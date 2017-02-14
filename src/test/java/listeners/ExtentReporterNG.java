@@ -60,7 +60,7 @@ public class ExtentReporterNG implements IReporter {
                 if (result.getThrowable() != null) {
                     test.log(status, result.getThrowable());
                     System.out.println(TestUtil.screenShotName+" From Extent Report");
-                   test.log(LogStatus.INFO, "Screenshot of failed test "+test.addScreenCapture(TestUtil.mailscreenshotpath));
+                   // test.log(LogStatus.INFO, "Screenshot of failed test "+test.addScreenCapture(TestUtil.mailscreenshotpath));
                 }
                 else {
                     test.log(status, "Test " + status.toString().toLowerCase() + "ed");

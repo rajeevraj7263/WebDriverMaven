@@ -38,8 +38,8 @@ public class CustomListener implements ITestListener,ISuiteListener{
 	
 		TestUtil.captureScreenshot();
 		System.setProperty("org.uncommons.reportng.escape-output", "false");
-		Reporter.log("<a target=\"_blank\" href=\""+TestUtil.screenShotName+"\">Screenshot</a>");
-		Reporter.log("<br><a  target='_blank' href=\""+TestUtil.screenShotName+"\" ><img height=200, width=200, src=\""+TestUtil.screenShotName+"\" alt=\"\"/></img></a>");
+		Reporter.log("<a target=\"_blank\" href=\""+TestUtil.mailscreenshotpath+"\">Screenshot</a>");
+		 Reporter.log("<br><a  target='_blank' href=\""+TestUtil.mailscreenshotpath+"\" ><img height=200, width=200, src=\""+TestUtil.mailscreenshotpath+"\" alt=\"\"/></img></a>");
 		
 		
 		System.out.println("Screenshot Captured");

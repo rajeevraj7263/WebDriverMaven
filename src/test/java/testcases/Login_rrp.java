@@ -19,7 +19,7 @@ public class Login_rrp extends TestBase
 	// (dataProvider="getData")
 	
 	
-
+	
 	@Test(dataProvider="getData")
 	public void login(String Username,String Password){
 		
@@ -32,6 +32,13 @@ public class Login_rrp extends TestBase
 		driver.findElement(By.xpath(OR.getProperty("Password"))).sendKeys(Password);
 		log.debug("Password filled");
 		driver.findElement(By.xpath(OR.getProperty("loginclick"))).click();
+		Assert.assertEquals("Home", driver.getTitle());
+		
+		/*driver.findElement(By.xpath("html/body/div[1]/div/div[1]/div/div[1]/ul/li[1]/ul/li/a")).click();
+		
+		
+		driver.findElement(By.xpath("html/body/div[1]/div/div[1]/div/div[1]/ul/li[1]/ul/li/ul/li[2]/a")).click();
+		*/
 		log.debug("Successfully login");
 		/*
 		 * rajiv ranjan

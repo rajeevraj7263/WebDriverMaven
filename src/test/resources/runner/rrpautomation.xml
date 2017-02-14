@@ -17,7 +17,10 @@
   
     <classes>
       <class name="testcases.Login_rrp"/>
-      <class name="testcases.RRP_HOME"/>
+      
+      
+    <class name="testcases.St_Bruno_School"/>        
+      
       
       
       
@@ -25,18 +28,51 @@
   </test> 
   
   
+   <test name="Location">
+  
+    <classes>
+      <class name="testcases.Location_Home"/>
+      </classes>
+  </test> 
+  
+  
+   <test name="Dashboard">
+  
+    <classes>
+        <class name="testcases.Dashboard"/>
+      </classes>
+  </test> 
+  
+  <test name="Account">
+  
+    <classes>
+     <class name="testcases.Account_Info"/>
+      </classes>
+  </test> 
+  
+  <test name="vendor">
+  
+    <classes>
+      <class name="testcases.Vendor_Links"/>
+      </classes>
+  </test> 
+  
+  <test name="report">
+  
+    <classes>
+            <class name="testcases.Report_Card"/>
+      </classes>
+  </test> 
+  
+  <test name="manage">
+  
+    <classes>
+       <class name="testcases.Manage_People"/>
+      </classes>
+  </test> 
   
   
   
-  
-  
-  
-  
-  
-   
-    
-    
-    
   
   
   
@@ -73,12 +109,12 @@
     
     
     
-    <!-- <test name="rrp logout test">
+    <test name="rrp logout test">
   
     <classes>
       <class name="testcases.Logout"/>
       </classes>
-  </test>  -->
+  </test> 
    
    
   
